@@ -29,6 +29,15 @@ int main() {
     cout << phrase << endl;
 
     
-    // 44:52
+    // find a string inside a string
+    // stuff_to_look_for, what index to start
+
+    cout << phrase.find("Academy", 0) << endl;
+
+    // Substring
+    // phrase.string(start_index, Length)
+    string phrasesub;
+    phrasesub = phrase.substr(8, 5);
+    cout << phrasesub << endl;
     return 0;
 }
