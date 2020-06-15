@@ -21,6 +21,5 @@ int main() {
     cout << pluralNoun << " are blue " << endl;
     cout << "I love " << celebrity << endl;
 
-    // 1:13:17
     return 0;
 }
