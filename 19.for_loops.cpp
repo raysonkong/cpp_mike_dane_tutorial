@@ -16,5 +16,8 @@ int main() {
   for (int i = 0; i < arrSize; i++){
     cout << nums[i] << endl;
   }
+  
+
+  return 0;
 }
 
